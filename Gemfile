@@ -6,8 +6,8 @@ gem "hashie"
 gem "awesome_print", :git=> 'git@github.com:awesome-print/awesome_print.git'
 
  
-groups :development do
-gem "pry", :groups => [:development, :test]
+groups :development, :test do
+gem "pry",
 end
 
 
